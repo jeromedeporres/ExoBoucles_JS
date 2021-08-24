@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>ExoBoucle3</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+    /*         var p = prompt("Nombre de lignes");
+            var p1 = prompt("Le caractère"); */
+ 
+            do {
+                var p = parseInt(prompt("Nombre de lignes"));
+            } while (isNaN(p) || (!isNaN(p) && ((p >50) || (p <=0))))
+            do { 
+                var p1 = prompt("Le caractere");
+            } while (p1.length != 1) {
+                
+            }
+            for (var p2 = 1; p2 <=p; p2++) {
+            for (var k1 = 1; k1 <= p2; k1++) {
+            window.document.write(' '+p1); 
+        }
+            window.document.write("<br>");
+    }
+        </script>
+    </body>
+</html>

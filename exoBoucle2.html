@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>ExoBoucle2</title>
+    </head>
+    <body>
+        <h1>Titre Principal</h1>
+            <div>
+                <p>Un Paragraphe</p>
+                <p id="monP1"></p>
+            </div>
+            <script type="text/javascript">
+                var x = (prompt("Entrez un nombre"));
+                var nb = 0;
+                for (nb = 0; nb < x; nb++){
+                    document.getElementById("monP1").innerHTML+=('x stock la valeur'+ ' ' +x +' lors du passage n°'+ ' ' +(nb+1) +' ' +'dans la boucle.<br>');
+                }      
+            </script>
+    </body>
+</html>
